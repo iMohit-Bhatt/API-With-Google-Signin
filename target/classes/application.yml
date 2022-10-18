@@ -1,0 +1,29 @@
+logging:
+    level:
+        org:
+            hibernate:
+                SQL: DEBUG
+spring:
+    datasource:
+        password: 9891
+        url: jdbc:mysql://localhost:3306/sms?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+        username: root
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    security:
+        oauth2:
+          client:
+              registration:
+                google:
+                    client-id: 776246917206-kb62ibesklbtilsbq53lucfpqd74gbsl.apps.googleusercontent.com
+                    client-secret: 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
+                    scope:
+                      - email
+                      - profile
+        user:
+            name: root
+            password: 9891
