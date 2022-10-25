@@ -26,6 +26,7 @@ ii) Employee -> In this user can Enter Name, Phone, Email, Salary.
 Implementation:-
 
 1. Created a Package com.Employee inside which we have 5 Packages
+
 ->Controller
 ->Dao
 ->Entity
