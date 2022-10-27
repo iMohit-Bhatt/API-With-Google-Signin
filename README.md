@@ -3,9 +3,11 @@ I have created an API to Add, Remove and Update User in Database And Added Googl
 
 Connection with Database had done successfully. Now we can add or remove the user(tested and working).
 Added Some Functionality:-
--Login Functionality.
--Singup Functionality.
--Logout Functionality.
+-Login Functionality,
+
+-Singup Functionality,
+
+-Logout Functionality,
 
 Added all the functionality for Employees API. Client can add there employee details in the database from view like Name, Email, Phone, Salary etc.
 Added Some Functionality:-
