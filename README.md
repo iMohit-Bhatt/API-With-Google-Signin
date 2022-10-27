@@ -24,10 +24,15 @@ Added Some Functionality:-
 #application running properties DB portNo-3306 and server runnning on port No-8080
 
 #database details using mysql version 8 
+
 Database Name - sms
+
 Tables:-
+
 i) Registered_user -> In this user can Enter Name, Phone, Email, Password, College.
+
 ii) Employee -> In this user can Enter Name, Phone, Email, Salary.
+
 
 #Used Thymleaf for the UI design, Now user can login by running the url name localhost:8080/login and new user can signup on the application by the same url there they will find a signup button, After clicking on signup button user will get the Registeration form. After Successful login on the application user can see the employee list working in there company or Add, Remove and Update the Employee's.
 
